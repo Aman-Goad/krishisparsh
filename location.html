@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>krishisparsh</title>
+    <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -13,18 +13,14 @@
             background-position: center;
             background-repeat: no-repeat;
         }
-        .mission-bg {
-            background-image: url("src/plant.jpg");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
+
     </style>
 </head>
 <body>
     <header class="bg-green-800 text-white text-center h-10 py-2 font-Montserrat">
         Free Shipping - Enjoy Free delivery on orders above 249/-
     </header>
+   
     <header class="bg-white text-black shadow-md h-24">
         <div class="container mx-auto flex justify-between items-center p-4">
             <!-- Logo -->
@@ -32,10 +28,10 @@
     
             <!-- Desktop Navigation Menu -->
             <nav class="hidden md:flex flex-1 justify-center space-x-4">
-                <a href="/index.html" class="hover:bg-gray-200 px-3 py-4 rounded">Home</a>
-                <a href="/about.html" class="hover:bg-gray-200 px-3 py-4 rounded">About</a>
-                <a href="/contact.html" class="hover:bg-gray-200 px-3 py-4 rounded">Contact</a>
-                <a href="location.html" class="hover:bg-gray-200 px-3 py-4 rounded">Location</a>
+                <a href="index.html" class="hover:bg-gray-200 px-3 py-4 rounded">Home</a>
+                <a href="about.html" class="hover:bg-gray-200 px-3 py-4 rounded">About</a>
+                <a href="contact.html" class="hover:bg-gray-200 px-3 py-4 rounded">Contact</a>
+                <a href="#location.html" class="hover:bg-gray-200 px-3 py-4 rounded">Location</a>
             </nav>
     
             <!-- Search and Mobile Menu Button -->
@@ -67,90 +63,50 @@
             <a href="#location" class="block px-4 py-2 text-white hover:bg-pink-600">Location</a>
         </div>
     </header>
-   <!-- About Section -->
-   <section class="py-12 bg-gray-100">
-    <div class="container mx-auto px-4">
-        <div class="flex flex-col md:flex-row items-center md:items-start">
-            <!-- Image -->
-            <div class="md:w-1/2 mb-8 md:mb-0">
-                <img src="src/img5.webp" alt="About Us" class="w-full h-80 rounded-lg shadow-md">
+
+    <div class="container mx-auto py-12">
+        <!-- Page Header -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-green-800">Our Locations</h1>
+            <p class="text-lg text-green-600">Find the nearest store to you</p>
+        </header>
+
+        <!-- Locations Section -->
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Location Card 1 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 hover:shadow-xl transition-all duration-300">
+                <img src="/src/pic2.webp" alt="Location 1" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-green-800">Location Name 1</h2>
+                    <p class="text-green-600 mt-2">123 Herbal St, Green City</p>
+                    <p class="mt-4 text-green-700">Mon-Fri: 9 AM - 6 PM</p>
+                </div>
             </div>
-            <!-- Text -->
-            <div class="md:w-1/2 md:pl-8">
-                <h2 class="text-3xl font-bold mb-4">About Us</h2>
-                <p class="text-lg text-gray-700 leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Vivamus lacinia odio vitae vestibulum. Duis ac turpis euismod,
-                     scelerisque libero id, dictum sapien. Sed nec ex euismod, suscipit nulla at,
-                      consequat eros. Cras viverra massa non tortor ultrices, eget auctor magna 
-                      varius. Nulla facilisi. Integer gravida odio et neque fermentum facilisis.
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores inventore 
-                      deleniti quae consectetur cum eum nobis autem, unde possimus quaerat porro 
-                      alias consequuntur, accusantium labore, modi beatae quos rerum ullam?
-                </p>
+
+            <!-- Location Card 2 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 hover:shadow-xl transition-all duration-300">
+                <img src="/src/pic3.webp" alt="Location 2" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-green-800">Location Name 2</h2>
+                    <p class="text-green-600 mt-2">456 Nature Ave, Leaf Town</p>
+                    <p class="mt-4 text-green-700">Mon-Fri: 9 AM - 6 PM</p>
+                </div>
             </div>
-        </div>
+
+            <!-- Location Card 3 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 hover:shadow-xl transition-all duration-300">
+                <img src="/src/pic6.avif" alt="Location 3" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-green-800">Location Name 3</h2>
+                    <p class="text-green-600 mt-2">789 Plant Blvd, Flora City</p>
+                    <p class="mt-4 text-green-700">Mon-Fri: 9 AM - 6 PM</p>
+                </div>
+            </div>
+
+            <!-- Add more location cards as needed -->
+        </section>
     </div>
-</section>
-<!-- ---------------- -->  
-
-
-   
-
     
-
-    <!-- Mission Statement -->
-     <!-- Our Mission Section with Background Image -->
-     <section class="mission-bg py-12 bg-gray-800 bg-opacity-50">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">Our Mission</h2>
-            <p class="text-lg md:text-xl mx-auto max-w-3xl leading-relaxed text-gray-200">
-                Our mission is to lead the way in sustainable agriculture, promote biodiversity, and support our local community by providing fresh, organic produce. We believe in nurturing the land and fostering a healthier future for generations to come.
-            </p>
-        </div>
-    </section>
-
-   <!-- Team Section -->
-<section class="bg-gray-50 py-12">
-    <div class="container mx-auto px-4 text-center">
-        <h2 class="text-3xl md:text-4xl font-bold mb-8 text-gray-800">Meet Our Team</h2>
-        <div class="flex flex-wrap -mx-4 justify-center">
-            <!-- Team Member 1 -->
-            <div class="w-full md:w-1/3 px-4 mb-8">
-                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform transition-shadow duration-300 ease-in-out">
-                    <img src="src/man2.jpg" alt="John Doe" class="w-full h-48 object-cover rounded-t-lg mb-4">
-                    <h3 class="text-xl font-semibold mb-2 text-gray-900">John Doe</h3>
-                    <p class="text-gray-600">Founder & CEO</p>
-                    <p class="mt-2 text-gray-700">John has over 20 years of experience in organic farming and is passionate about sustainable agriculture.</p>
-                </div>
-            </div>
-            <!-- Team Member 2 -->
-            <div class="w-full md:w-1/3 px-4 mb-8">
-                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform transition-shadow duration-300 ease-in-out">
-                    <img src="src/man3.jpg" alt="Jane Smith" class="w-full h-48 object-cover rounded-t-lg mb-4">
-                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Jane Smith</h3>
-                    <p class="text-gray-600">Farm Manager</p>
-                    <p class="mt-2 text-gray-700">Jane oversees the daily operations of the farm and ensures that all practices meet our organic standards.</p>
-                </div>
-            </div>
-            <!-- Team Member 3 -->
-            <div class="w-full md:w-1/3 px-4 mb-8">
-                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform transition-shadow duration-300 ease-in-out">
-                    <img src="src/man2.jpg" alt="Alice Johnson" class="w-full h-48 object-cover rounded-t-lg mb-4">
-                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Alice Johnson</h3>
-                    <p class="text-gray-600">Agricultural Specialist</p>
-                    <p class="mt-2 text-gray-700">Alice specializes in soil health and plant nutrition, helping us to grow the best produce possible.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-    
-
-
-      
  <!-- ------footer---- -->
 <footer class="footer-bg text-white py-12">
     <div class="container mx-auto px-4">
@@ -210,5 +166,6 @@
 <footer class="text-center bg-yellow-500 text-white h-10 py-2">
     organic India Pvt.Ltd
     </footer>
+   
 </body>
 </html>
