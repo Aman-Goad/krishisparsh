@@ -26,7 +26,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         .footer-bg {
-            background-image: url("src/leaf.jpg"); /* Replace with your image URL */
+            background-image: url("src/footer.webp"); /* Replace with your image URL */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -117,59 +117,89 @@
 <!-- ------ -->
  <!-- Product Section -->
   
- <section class="py-12 bg-gray-100">
-    <div class="container mx-auto px-4">
-        <!-- First Row of Products -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-12">
-            <!-- Product Card 1 -->
-            <div class="text-center">
-                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="src/product1.webp" alt="Product 1" class="w-full h-50 object-cover">
-                </div>
-                <h3 class="text-xl font-semibold mt-2">Product 1</h3>
-            </div>
-            <!-- Product Card 2 -->
-            <div class="text-center">
-                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="src/product2.webp" alt="Product 2" class="w-full h-50 object-cover">
-                </div>
-                <h3 class="text-xl font-semibold mt-2">Product 2</h3>
-            </div>
-            <!-- Product Card 3 -->
-            <div class="text-center">
-                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="src/product3.jpg" alt="Product 3" class="w-full h-50 object-cover">
-                </div>
-                <h3 class="text-xl font-semibold mt-2">Product 3</h3>
-            </div>
+
+
+<!-- Top Selling Products Section -->
+<section class="bg-white py-8">
+    <div class="container mx-auto">
+        <!-- Section Title -->
+        <div class="text-center mb-8">
+            <h2 class="text-3xl font-bold">Top Selling Products</h2>
+            <p class="text-gray-600">Tona Organic Farm is one of the top 28 internationally acclaimed innovative organizations.</p>
         </div>
 
-        <!-- Second Row of Products -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- Products Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 place-items-center">
+            
+            <!-- Product Card 1 -->
+            <div class="bg-white border border-gray-200 rounded-lg shadow-md ">
+                <img class="w-full h-48 object-cover rounded-t-lg" src="./src/BLACK RICE.png" alt="Health Pro+ (Complete Food Supplement) 500g">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold">Health Pro+ (Complete Food Supplement) 500g</h3>
+                    <div class="flex items-center mt-2 mb-4">
+                        <!-- Star Rating -->
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.392 4.287a1 1 0 00.95.69h4.513c.969 0 1.371 1.24.588 1.81l-3.665 2.659a1 1 0 00-.364 1.118l1.392 4.287c.3.921-.755 1.688-1.54 1.118l-3.665-2.659a1 1 0 00-1.176 0l-3.665 2.659c-.785.57-1.84-.197-1.54-1.118l1.392-4.287a1 1 0 00-.364-1.118L2.098 9.714c-.783-.57-.381-1.81.588-1.81h4.513a1 1 0 00.95-.69l1.392-4.287z"/></svg>
+                            <!-- Add more stars here -->
+                            <svg class="w-5 h-5 text-gray-300" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.392 4.287a1 1 0 00.95.69h4.513c.969 0 1.371 1.24.588 1.81l-3.665 2.659a1 1 0 00-.364 1.118l1.392 4.287c.3.921-.755 1.688-1.54 1.118l-3.665-2.659a1 1 0 00-1.176 0l-3.665 2.659c-.785.57-1.84-.197-1.54-1.118l1.392-4.287a1 1 0 00-.364-1.118L2.098 9.714c-.783-.57-.381-1.81.588-1.81h4.513a1 1 0 00.95-.69l1.392-4.287z"/></svg>
+                        </div>
+                        <span class="text-sm text-gray-600 ml-2">4.5</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-lg font-bold text-gray-900">₹250.01</span>
+                        <button class="px-4 py-2 bg-green-600 text-white rounded-lg">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="bg-white border border-gray-200 rounded-lg shadow-md">
+                <img class="w-full h-48 object-cover rounded-t-lg" src="./src/PULSES (1).png" alt="Aloe Vera Juice 500ml">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold">Aloe Vera Juice 500ml</h3>
+                    <div class="flex items-center mt-2 mb-4">
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.392 4.287a1 1 0 00.95.69h4.513c.969 0 1.371 1.24.588 1.81l-3.665 2.659a1 1 0 00-.364 1.118l1.392 4.287c.3.921-.755 1.688-1.54 1.118l-3.665-2.659a1 1 0 00-1.176 0l-3.665 2.659c-.785.57-1.84-.197-1.54-1.118l1.392-4.287a1 1 0 00-.364-1.118L2.098 9.714c-.783-.57-.381-1.81.588-1.81h4.513a1 1 0 00.95-.69l1.392-4.287z"/></svg>
+                            <svg class="w-5 h-5 text-gray-300" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.392 4.287a1 1 0 00.95.69h4.513c.969 0 1.371 1.24.588 1.81l-3.665 2.659a1 1 0 00-.364 1.118l1.392 4.287c.3.921-.755 1.688-1.54 1.118l-3.665-2.659a1 1 0 00-1.176 0l-3.665 2.659c-.785.57-1.84-.197-1.54-1.118l1.392-4.287a1 1 0 00-.364-1.118L2.098 9.714c-.783-.57-.381-1.81.588-1.81h4.513a1 1 0 00.95-.69l1.392-4.287z"/></svg>
+                        </div>
+                        <span class="text-sm text-gray-600 ml-2">5.0</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-lg font-bold text-gray-900">₹200.00</span>
+                        <button class="px-4 py-2 bg-green-600 text-white rounded-lg">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div class="bg-white border border-gray-200 rounded-lg shadow-md">
+                <img class="w-full h-48 object-cover rounded-t-lg" src="./src/WHEAT.png" alt="Organic Wheat Flour 1kg">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold">Organic Wheat Flour 1kg</h3>
+                    <div class="flex items-center mt-2 mb-4">
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.392 4.287a1 1 0 00.95.69h4.513c.969 0 1.371 1.24.588 1.81l-3.665 2.659a1 1 0 00-.364 1.118l1.392 4.287c.3.921-.755 1.688-1.54 1.118l-3.665-2.659a1 1 0 00-1.176 0l-3.665 2.659c-.785.57-1.84-.197-1.54-1.118l1.392-4.287a1 1 0 00-.364-1.118L2.098 9.714c-.783-.57-.381-1.81.588-1.81h4.513a1 1 0 00.95-.69l1.392-4.287z"/></svg>
+                            <svg class="w-5 h-5 text-gray-300" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.392 4.287a1 1 0 00.95.69h4.513c.969 0 1.371 1.24.588 1.81l-3.665 2.659a1 1 0 00-.364 1.118l1.392 4.287c.3.921-.755 1.688-1.54 1.118l-3.665-2.659a1 1 0 00-1.176 0l-3.665 2.659c-.785.57-1.84-.197-1.54-1.118l1.392-4.287a1 1 0 00-.364-1.118L2.098 9.714c-.783-.57-.381-1.81.588-1.81h4.513a1 1 0 00.95-.69l1.392-4.287z"/></svg>
+                        </div>
+                        <span class="text-sm text-gray-600 ml-2">4.7</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-lg font-bold text-gray-900">₹150.75</span>
+                        <button class="px-4 py-2 bg-green-600 text-white rounded-lg">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
             <!-- Product Card 4 -->
-            <div class="text-center">
-                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="src/product4.webp" alt="Product 4" class="w-full h-50 object-cover">
-                </div>
-                <h3 class="text-xl font-semibold mt-2">Product 4</h3>
-            </div>
-            <!-- Product Card 5 -->
-            <div class="text-center">
-                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="src/product5.webp" alt="Product 5" class="w-full h-50 object-cover">
-                </div>
-                <h3 class="text-xl font-semibold mt-2">Product 5</h3>
-            </div>
-            <!-- Product Card 6 -->
-            <div class="text-center">
-                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="src/product6.webp" alt="Product 6" class="w-full h-50 object-cover">
-                </div>
-                <h3 class="text-xl font-semibold mt-2">Product 6</h3>
-            </div>
+           
+
         </div>
     </div>
 </section>
+
+      
+
+
 <!-- -------------- -->
   <!-- About Section -->
   <section class="py-12 bg-gray-100">
@@ -177,125 +207,26 @@
         <div class="flex flex-col md:flex-row items-center md:items-start">
             <!-- Image -->
             <div class="md:w-1/2 mb-8 md:mb-0">
-                <img src="src/img5.webp" alt="About Us" class="w-full h-80 rounded-lg shadow-md">
+                <img src="src/About us.png" alt="About Us" class="w-full">
             </div>
             <!-- Text -->
             <div class="md:w-1/2 md:pl-8">
                 <h2 class="text-3xl font-bold mb-4">About Us</h2>
                 <p class="text-lg text-gray-700 leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Vivamus lacinia odio vitae vestibulum. Duis ac turpis euismod,
-                     scelerisque libero id, dictum sapien. Sed nec ex euismod, suscipit nulla at,
-                      consequat eros. Cras viverra massa non tortor ultrices, eget auctor magna 
-                      varius. Nulla facilisi. Integer gravida odio et neque fermentum facilisis.
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores inventore 
-                      deleniti quae consectetur cum eum nobis autem, unde possimus quaerat porro 
-                      alias consequuntur, accusantium labore, modi beatae quos rerum ullam?
+                    Our commitment to organic farming is rooted in our respect for the environment and a desire to promote a healthier lifestyle. We partner with local farmers who share our vision, ensuring that every product is grown, harvested, and processed without harmful chemicals or pesticides.
+
+From farm to table, our mission is to deliver freshness you can trust. We believe in transparency, so you can be confident that what you're putting into your body is as clean and wholesome as nature intended.
+
+Join us in our journey towards a more sustainable and health-conscious world. Together, we can make a difference, one organic product at a time
                 </p>
             </div>
         </div>
     </div>
 </section>
+
 <!-- ---------------- -->
-<div class="mx-auto px-4 py-8">
-    <h2 class="text-3xl font-bold text-center mb-6 bg-gradient-to-r from-green-400 to-green-500 text-transparent bg-clip-text shadow-lg">
-        Best Selling Products
-    </h2>
-    <br>
-    
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-        <!-- Card 1 -->
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl flex flex-col ">
-            <div class="relative w-full h-48">
-                <img src="src/pic8.avif" alt="Product 1" class="w-full h-full object-cover transition duration-300 ease-in-out hover:opacity-0">
-                <img src="src/img1.2.webp" alt="Product 1 Hover" class="w-full h-full object-cover absolute top-0 left-0 transition duration-300 ease-in-out opacity-0 hover:opacity-100">
-            </div>
-            <div class="p-4 flex-1">
-                <h3 class="text-lg font-semibold mb-2 text-center">Product 1</h3>
-                <p class="text-gray-600 text-center">$19.99</p>
-            </div>
-            <!-- Button Outside the Box -->
-            <div class="p-4">
-                <button class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition duration-300">Buy Now</button>
-            </div>
-        </div>
-        <!-- Card 2 -->
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl flex flex-col">
-            <div class="relative w-full h-48">
-                <img src="src/pic1.webp" alt="Product 2" class="w-full h-full object-cover transition duration-300 ease-in-out hover:opacity-0">
-                <img src="src/img1.2.webp" alt="Product 2 Hover" class="w-full h-full object-cover absolute top-0 left-0 transition duration-300 ease-in-out opacity-0 hover:opacity-100">
-            </div>
-            <div class="p-4 flex-1">
-                <h3 class="text-lg font-semibold mb-2 text-center">Product 2</h3>
-                <p class="text-gray-600 text-center">$29.99</p>
-            </div>
-            <!-- Button Outside the Box -->
-            <div class="p-4">
-                <button class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition duration-300">Buy Now</button>
-            </div>
-        </div>
-        <!-- Card 3 -->
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl flex flex-col">
-            <div class="relative w-full h-48">
-                <img src="src/pic2.webp" alt="Product 3" class="w-full h-full object-cover transition duration-300 ease-in-out hover:opacity-0">
-                <img src="src/img1.2.webp" alt="Product 3 Hover" class="w-full h-full object-cover absolute top-0 left-0 transition duration-300 ease-in-out opacity-0 hover:opacity-100">
-            </div>
-            <div class="p-4 flex-1">
-                <h3 class="text-lg font-semibold mb-2 text-center">Product 3</h3>
-                <p class="text-gray-600 text-center">$39.99</p>
-            </div>
-            <!-- Button Outside the Box -->
-            <div class="p-4">
-                <button class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition duration-300">Buy Now</button>
-            </div>
-        </div>
-        <!-- Card 4 -->
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl flex flex-col">
-            <div class="relative w-full h-48">
-                <img src="src/img3.webp" alt="Product 4" class="w-full h-full object-cover transition duration-300 ease-in-out hover:opacity-0">
-                <img src="src/img1.2.webp" alt="Product 4 Hover" class="w-full h-full object-cover absolute top-0 left-0 transition duration-300 ease-in-out opacity-0 hover:opacity-100">
-            </div>
-            <div class="p-4 flex-1">
-                <h3 class="text-lg font-semibold mb-2 text-center">Product 4</h3>
-                <p class="text-gray-600 text-center">$49.99</p>
-            </div>
-            <!-- Button Outside the Box -->
-            <div class="p-4">
-                <button class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition duration-300">Buy Now</button>
-            </div>
-        </div>
-        <!-- Card 5 -->
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl flex flex-col">
-            <div class="relative w-full h-48">
-                <img src="src/img4.webp" alt="Product 5" class="w-full h-full object-cover transition duration-300 ease-in-out hover:opacity-0">
-                <img src="src/img1.2.webp" alt="Product 5 Hover" class="w-full h-full object-cover absolute top-0 left-0 transition duration-300 ease-in-out opacity-0 hover:opacity-100">
-            </div>
-            <div class="p-4 flex-1">
-                <h3 class="text-lg font-semibold mb-2 text-center">Product 5</h3>
-                <p class="text-gray-600 text-center">$59.99</p>
-            </div>
-            <!-- Button Outside the Box -->
-            <div class="p-4">
-                <button class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition duration-300">Buy Now</button>
-            </div>
-        </div>
-        <!-- Card 6 -->
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl flex flex-col">
-            <div class="relative w-full h-48">
-                <img src="src/pic7.avif" alt="Product 6" class="w-full h-full object-cover transition duration-300 ease-in-out hover:opacity-0">
-                <img src="src/img1.2.webp" alt="Product 6 Hover" class="w-full h-full object-cover absolute top-0 left-0 transition duration-300 ease-in-out opacity-0 hover:opacity-100">
-            </div>
-            <div class="p-4 flex-1">
-                <h3 class="text-lg font-semibold mb-2 text-center">Product 6</h3>
-                <p class="text-gray-600 text-center">$69.99</p>
-            </div>
-            <!-- Button Outside the Box -->
-            <div class="p-4">
-                <button class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition duration-300">Buy Now</button>
-            </div>
-        </div>
-    </div>
-</div>
+
+
 
   
 
@@ -359,7 +290,7 @@
     </div>
 </footer>
 <footer class="text-center bg-yellow-500 text-white h-10 py-2">
-    organic India Pvt.Ltd
+    Organic India Pvt.Ltd
     </footer>
 
 
