@@ -3,18 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>krishisparsh</title>
+    <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
     <style>
         .footer-bg {
-            background-image: url("src/leaf.jpg"); /* Replace with your image URL */
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-        .hero-bg {
-            background-image: url("src/plant.jpg"); /* Replace with your image URL */
+            background-image: url("src/footer.webp"); /* Replace with your image URL */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -69,87 +64,67 @@
         </div>
     </header>
  
-    
+<!-- FAQ Section -->
+<section class="bg-gray-100 py-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center text-green-600 mb-8">Frequently Asked Questions</h2>
 
-    <!-- Contact Information -->
-    <section class="container mx-auto px-4 py-12">
-        <div class="text-center mb-12">
-            <h2 class="text-3xl font-bold mb-6">Contact Information</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Address -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-semibold mb-2">Our Address</h3>
-                    <p class="text-gray-600">123 Herbal Lane, Green City, GA 12345</p>
-                </div>
-                <!-- Phone Number -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-semibold mb-2">Phone Number</h3>
-                    <p class="text-gray-600">(123) 456-7890</p>
-                </div>
-                <!-- Email -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-semibold mb-2">Email Address</h3>
-                    <p class="text-gray-600">contact@herbalproducts.com</p>
+        <div class="space-y-6">
+            <!-- FAQ Item 1 -->
+            <div class="bg-white shadow rounded-lg">
+                <button id="faq1" class="w-full flex justify-between items-center p-4 text-left text-gray-700 font-semibold focus:outline-none">
+                    <span>What is organic farming?</span>
+                    <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="p-4 hidden">
+                    <p class="text-gray-600">Organic farming is an agricultural method that avoids the use of synthetic pesticides, fertilizers, and genetically modified organisms. Instead, it emphasizes natural processes, biodiversity, and sustainability.</p>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <div class="relative bg-cover bg-center h-96" style="background-image: url('https://plus.unsplash.com/premium_photo-1661954516728-4ec9fe801f54?q=80&w=1794&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); background-attachment: fixed;">
-        <div class="absolute inset-0 bg-black opacity-50"></div> <!-- Overlay -->
-        <div class="relative flex items-center justify-center h-full">
-            <div class="text-center text-white p-8">
-                <h2 class="text-3xl font-bold mb-4">Join Us Today!</h2>
-                <p class="mb-6">Get exclusive access to our latest updates and offers.</p>
-                <a href="#" class="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded shadow-md transition duration-300">
-                    Sign Up Now
-                </a>
+            <!-- FAQ Item 2 -->
+            <div class="bg-white shadow rounded-lg">
+                <button id="faq2" class="w-full flex justify-between items-center p-4 text-left text-gray-700 font-semibold focus:outline-none">
+                    <span>Why choose organic products?</span>
+                    <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="p-4 hidden">
+                    <p class="text-gray-600">Organic products are free from harmful chemicals and pesticides. They are better for the environment, promote biodiversity, and are often fresher and tastier compared to conventionally grown products.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="bg-white shadow rounded-lg">
+                <button id="faq3" class="w-full flex justify-between items-center p-4 text-left text-gray-700 font-semibold focus:outline-none">
+                    <span>How do I start organic farming?</span>
+                    <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="p-4 hidden">
+                    <p class="text-gray-600">To start organic farming, you need to familiarize yourself with organic farming principles, select appropriate crops, and prepare your soil. It’s also beneficial to seek guidance from organic farming experts and organizations.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+            <div class="bg-white shadow rounded-lg">
+                <button id="faq4" class="w-full flex justify-between items-center p-4 text-left text-gray-700 font-semibold focus:outline-none">
+                    <span>What are the benefits of organic farming?</span>
+                    <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="p-4 hidden">
+                    <p class="text-gray-600">Organic farming benefits include improved soil health, reduced environmental impact, better biodiversity, and healthier food. It also supports sustainable agricultural practices and reduces exposure to harmful chemicals.</p>
+                </div>
             </div>
         </div>
     </div>
-    
-    <!-- Contact Section -->
-    <section class="bg-white py-12">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold mb-6">Send Us a Message</h2>
-                <p class="text-lg md:text-xl mb-8">Fill out the form below and we'll get back to you as soon as possible.</p>
-            </div>
-            <div class="flex flex-col md:flex-row gap-8">
-                <!-- Contact Form -->
-                <div class="flex-1">
-                    <div class="max-w-lg mx-auto">
-                        <form action="#" method="POST">
-                            <div class="mb-4">
-                                <label for="name" class="block text-gray-700 font-semibold mb-2">Name</label>
-                                <input type="text" id="name" name="name" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" required>
-                            </div>
-                            <div class="mb-4">
-                                <label for="email" class="block text-gray-700 font-semibold mb-2">Email</label>
-                                <input type="email" id="email" name="email" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" required>
-                            </div>
-                            <div class="mb-4">
-                                <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
-                                <textarea id="message" name="message" rows="4" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" required></textarea>
-                            </div>
-                            <button type="submit" class="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300 ease-in-out">Send Message</button>
-                        </form>
-                    </div>
-                </div>
-                <!-- Map Section -->
-                <div class="flex-1">
-                    
-                    <div class="aspect-w-16 aspect-h-9">
-                        <!-- Replace with an actual Google Maps iframe or map integration -->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.952759704285!2d-122.08424968468155!3d37.42199997982553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb6d0a9f34e43%3A0x23e5bde0d1d8969c!2sGoogleplex!5e0!3m2!1sen!2sus!4v1649770238397!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+</section>
 
-
-      <!-- Footer -->
 <!-- ------footer---- -->
 <footer class="footer-bg text-white py-12">
     <div class="container mx-auto px-4">
@@ -159,7 +134,7 @@
             <div class="mb-8 md:mb-0 md:w-1/4 text-center md:text-left">
                 <img src="your-logo.png" alt="Logo" class="mb-4 mx-auto md:mx-0" style="width: 150px;">
                 <p class="text-lg font-semibold">Your Company</p>
-                <p class="text-sm"> 121004 Nariyala - Chhaensa Rd, Ballabhgarh, Chhainssa, Haryana </p>
+                <p class="text-sm">1234 Street Address, City, Country</p>
                 <p class="text-sm">Phone: (123) 456-7890</p>
             </div>
 
@@ -208,6 +183,38 @@
 </footer>
 <footer class="text-center bg-yellow-500 text-white h-10 py-2">
     Organic India Pvt.Ltd
-    </footer>
+    </footer> 
+    
+    
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqs = document.querySelectorAll('.bg-white button');
+    
+            faqs.forEach((faq) => {
+                faq.addEventListener('click', () => {
+                    const content = faq.nextElementSibling;
+                    const isOpen = content.classList.contains('block');
+    
+                    // Close all open FAQ items
+                    document.querySelectorAll('.bg-white .p-4').forEach((item) => {
+                        item.classList.add('hidden');
+                    });
+    
+                    // Hide all arrow icons
+                    document.querySelectorAll('.bg-white svg').forEach((icon) => {
+                        icon.classList.remove('rotate-180');
+                    });
+    
+                    // Toggle the current FAQ item
+                    if (!isOpen) {
+                        content.classList.remove('hidden');
+                        faq.querySelector('svg').classList.add('rotate-180');
+                    }
+                });
+            });
+        });
+    </script>
+    
 </body>
 </html>
