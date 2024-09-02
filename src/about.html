@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>krishisparsh</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .footer-bg {
+            background-image: url("src/leaf.jpg"); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="bg-green-800 text-white text-center h-10 py-2 font-Montserrat">
+        Free Shipping - Enjoy Free delivery on orders above 249/-
+    </header>
+   
+    <header class="bg-white text-black shadow-md h-24">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <!-- Logo -->
+            <a href="index.html" class="text-2xl font-bold">krishisparsh</a>
+    
+            <!-- Desktop Navigation Menu -->
+            <nav class="hidden md:flex flex-1 justify-center space-x-4">
+                <a href="index.html" class="hover:bg-gray-200 px-3 py-4 rounded">Home</a>
+                <a href="about.html" class="hover:bg-gray-200 px-3 py-4 rounded">About</a>
+                <a href="contact.html" class="hover:bg-gray-200 px-3 py-4 rounded">Contact</a>
+                <a href="feedback.html" class="hover:bg-gray-200 px-3 py-4 rounded">Feedback</a>
+            </nav>
+    
+            <!-- Search and Mobile Menu Button -->
+            <div class="flex items-center space-x-4">
+                <!-- Search Box -->
+                <div class="relative hidden md:flex">
+                    <input type="text" placeholder="Search..." class="px-3 py-2 border rounded-l-md border-gray-300 shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 w-48">
+                    <button class="absolute right-0 top-0 mt-1 mr-1 px-3 py-2 bg-blue-500 text-white rounded-r-md hover:bg-blue-600">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a7 7 0 110 14 7 7 0 010-14zm0 0l6 6"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-button" class="md:hidden p-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden bg-pink-700 hidden">
+            <a href="#" class="block px-4 py-2 text-white hover:bg-pink-600">Home</a>
+            <a href="#about" class="block px-4 py-2 text-white hover:bg-pink-600">About</a>
+            <a href="#contact" class="block px-4 py-2 text-white hover:bg-pink-600">Contact</a>
+            <a href="#location" class="block px-4 py-2 text-white hover:bg-pink-600">Location</a>
+        </div>
+    </header>
+   <!-- About Section -->
+  
+   <section class="py-12">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row items-center md:items-start">
+            <!-- Image -->
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <img src="src/About us.png" alt="About Us" class="w-full">
+            </div>
+            <!-- Text -->
+            <div class="md:w-1/2 md:pl-8">
+                <h2 class="text-3xl font-bold mb-4">About Us</h2>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    Our commitment to organic farming is rooted in our respect for the environment and a desire to promote a healthier lifestyle. We partner with local farmers who share our vision, ensuring that every product is grown, harvested, and processed without harmful chemicals or pesticides.
+
+From farm to table, our mission is to deliver freshness you can trust. We believe in transparency, so you can be confident that what you're putting into your body is as clean and wholesome as nature intended.
+
+Join us in our journey towards a more sustainable and health-conscious world. Together, we can make a difference, one organic product at a time
+Organic farming is a sustainable agricultural practice that emphasizes the use of natural processes and materials to grow crops and raise livestock. It avoids synthetic chemicals such as pesticides,
+ herbicides, and fertilizers, focusing instead on organic inputs like compost, manure, and biological pest control. Organic farming enhances soil health, promotes biodiversity, and reduces pollution,
+  making it a more environmentally friendly option. 
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="relative bg-cover bg-center h-96" style="background-image: url('https://plus.unsplash.com/premium_photo-1661954516728-4ec9fe801f54?q=80&w=1794&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); background-attachment: fixed;">
+    <div class="absolute inset-0 bg-black opacity-50"></div> <!-- Overlay -->
+    <div class="relative flex items-center justify-center h-full">
+        <div class="text-center text-white p-8">
+            <h2 class="text-3xl font-bold mb-4">Join Us Today!</h2>
+            <p class="mb-6">Get exclusive access to our latest updates and offers.</p>
+            <a href="#" class="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded shadow-md transition duration-300">
+                Sign Up Now
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------- -->
+<div class="py-16 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center text-green-600 mb-8">Customer Feedback</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Feedback Card 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+                <p class="text-gray-600 mb-4">"This service exceeded my expectations! The quality is top-notch, and the support is fantastic."</p>
+                <h3 class="text-lg font-semibold text-green-600">John Doe</h3>
+                <p class="text-sm text-gray-500">Software Engineer</p>
+            </div>
+            <!-- Feedback Card 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+                <p class="text-gray-600 mb-4">"I’m very pleased with the results. The team was professional and attentive to my needs."</p>
+                <h3 class="text-lg font-semibold text-green-600">Jane Smith</h3>
+                <p class="text-sm text-gray-500">Product Manager</p>
+            </div>
+            <!-- Feedback Card 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+                <p class="text-gray-600 mb-4">"Excellent service! The turnaround time was impressive, and the quality was outstanding."</p>
+                <h3 class="text-lg font-semibold text-green-600">Mike Johnson</h3>
+                <p class="text-sm text-gray-500">Designer</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+   
+
+    
+
+    
+
+  
+
+    
+
+
+      
+ <!-- ------footer---- -->
+<!-- ------footer---- -->
+<footer class="footer-bg text-white py-12">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row md:justify-between">
+
+            <!-- Section 1: Logo -->
+            <div class="mb-8 md:mb-0 md:w-1/4 text-center md:text-left">
+                <img src="your-logo.png" alt="Logo" class="mb-4 mx-auto md:mx-0" style="width: 150px;">
+                <p class="text-lg font-semibold">Your Company</p>
+                <p class="text-sm"> 121004 Nariyala - Chhaensa Rd, Ballabhgarh, Chhainssa, Haryana </p>
+                <p class="text-sm">Phone: (123) 456-7890</p>
+            </div>
+
+            <!-- Section 2: Navigation Links -->
+            <div class="mb-8 md:mb-0 md:w-1/4">
+                <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="index.html" class="hover:text-gray-400">Home</a></li>
+                    <li><a href="about.html" class="hover:text-gray-400">About</a></li>
+                    <li><a href="contact.html" class="hover:text-gray-400">Contact</a></li>
+                    <li><a href="feedback.html" class="hover:text-gray-400">Feedback</a></li>
+                </ul>
+            </div>
+
+            <!-- Section 3: Additional Points -->
+            <div class="mb-8 md:mb-0 md:w-1/4">
+                <h3 class="text-xl font-semibold mb-4">More Info</h3>
+                <ul class="space-y-2">
+                    <li><a href="contactus.html" class="hover:text-gray-400">Contact Us</a></li>
+                    <!-- <li><a href="#" class="hover:text-gray-400">Career</a></li> -->
+                    <li><a href="FAQ.html" class="hover:text-gray-400">FAQ</a></li>
+                </ul>
+            </div>
+
+            <!-- Section 4: Social Media Links -->
+            <div class="text-center md:text-left md:w-1/4">
+                <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
+                <div class="flex justify-center md:justify-start space-x-4">
+                    <a href="https://facebook.com/yourpage" class="text-white hover:text-gray-400" aria-label="Facebook">
+                        <i class="fab fa-facebook-f fa-lg"></i>
+                    </a>
+                    <a href="https://twitter.com/yourprofile" class="text-white hover:text-gray-400" aria-label="Twitter">
+                        <i class="fab fa-twitter fa-lg"></i>
+                    </a>
+                    <a href="https://instagram.com/yourprofile" class="text-white hover:text-gray-400" aria-label="Instagram">
+                        <i class="fab fa-instagram fa-lg"></i>
+                    </a>
+                    <a href="https://wa.me/1234567890" class="text-white hover:text-gray-400" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+<footer class="text-center bg-yellow-500 text-white h-10 py-2">
+    Organic India Pvt.Ltd
+    </footer>
+</body>
+</html>
