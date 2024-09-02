@@ -49,14 +49,13 @@
                 </a>
                 <!-- Other content can follow here -->
             </div>
-            
     
             <!-- Desktop Navigation Menu -->
             <nav class="hidden md:flex flex-1 justify-center space-x-4">
-                <a href="index.html" class="hover:bg-gray-200 px-3 py-4 rounded">Home</a>
-                <a href="about.html" class="hover:bg-gray-200 px-3 py-4 rounded">About</a>
-                <a href="contact.html" class="hover:bg-gray-200 px-3 py-4 rounded">Contact</a>
-                <a href="feedback.html" class="hover:bg-gray-200 px-3 py-4 rounded">Feedback</a>
+                <a href="index.html" class="nav-link px-3 py-4 text-gray-800 hover:text-gray-600">Home</a>
+                <a href="about.html" class="nav-link px-3 py-4 text-gray-800 hover:text-gray-600">About</a>
+                <a href="contact.html" class="nav-link px-3 py-4 text-gray-800 hover:text-gray-600">Contact</a>
+                <a href="feedback.html" class="nav-link px-3 py-4 text-gray-800 hover:text-gray-600">Feedback</a>
             </nav>
     
             <!-- Search and Mobile Menu Button -->
@@ -70,9 +69,9 @@
                         </svg>
                     </button>
                 </div>
-                
+    
                 <!-- Mobile Menu Button -->
-                <button id="mobile-menu-button" class="md:hidden p-2">
+                <button id="mobile-menu-button" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden p-2">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>
@@ -224,30 +223,33 @@
 
 <!-- -------------- -->
   <!-- About Section -->
-  <section class="py-12">
+  <section class="py-12 bg-gradient-to-r from-green-100 via-green-200 to-green-300">
     <div class="container mx-auto px-4">
         <div class="flex flex-col md:flex-row items-center md:items-start">
             <!-- Image -->
-            <div class="md:w-1/2 mb-8 md:mb-0">
-                <img src="src/About us.png" alt="About Us" class="w-full">
+            <div class="md:w-1/2 mb-8 md:mb-0 relative">
+                <img src="src/About us.png" alt="About Us" class="w-full rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <div class="absolute inset-0 bg-gradient-to-r from-green-500 to-green-700 opacity-30 rounded-lg"></div>
             </div>
             <!-- Text -->
             <div class="md:w-1/2 md:pl-8">
-                <h2 class="text-3xl font-bold mb-4">About Us</h2>
-                <p class="text-lg text-gray-700 leading-relaxed">
+                <h2 class="text-4xl font-extrabold mb-4 text-gray-900 tracking-tight">
+                    About Us
+                </h2>
+                <p class="text-lg text-gray-800 leading-relaxed mb-4">
                     Our commitment to organic farming is rooted in our respect for the environment and a desire to promote a healthier lifestyle. We partner with local farmers who share our vision, ensuring that every product is grown, harvested, and processed without harmful chemicals or pesticides.
-
-From farm to table, our mission is to deliver freshness you can trust. We believe in transparency, so you can be confident that what you're putting into your body is as clean and wholesome as nature intended.
-
-Join us in our journey towards a more sustainable and health-conscious world. Together, we can make a difference, one organic product at a time
-Organic farming is a sustainable agricultural practice that emphasizes the use of natural processes and materials to grow crops and raise livestock. It avoids synthetic chemicals such as pesticides,
- herbicides, and fertilizers, focusing instead on organic inputs like compost, manure, and biological pest control. Organic farming enhances soil health, promotes biodiversity, and reduces pollution,
-  making it a more environmentally friendly option. 
+                </p>
+                <p class="text-lg text-gray-800 leading-relaxed mb-4">
+                    From farm to table, our mission is to deliver freshness you can trust. We believe in transparency, so you can be confident that what you're putting into your body is as clean and wholesome as nature intended.
+                </p>
+                <p class="text-lg text-gray-800 leading-relaxed">
+                    Join us in our journey towards a more sustainable and health-conscious world. Together, we can make a difference, one organic product at a time. Organic farming is a sustainable agricultural practice that emphasizes the use of natural processes and materials to grow crops and raise livestock. It avoids synthetic chemicals such as pesticides, herbicides, and fertilizers, focusing instead on organic inputs like compost, manure, and biological pest control. Organic farming enhances soil health, promotes biodiversity, and reduces pollution, making it a more environmentally friendly option.
                 </p>
             </div>
         </div>
     </div>
 </section>
+
 <div class="relative bg-cover bg-center h-96" style="background-image: url('src/bg1.jpg'); background-attachment: fixed;">
     <div class="absolute inset-0 bg-black opacity-50"></div> <!-- Overlay -->
     <div class="relative flex items-center justify-center h-full">
@@ -465,7 +467,7 @@ Organic farming is a sustainable agricultural practice that emphasizes the use o
                     <a href="https://x.com/KrishiSpar32" class="text-white hover:text-gray-400" aria-label="Twitter">
                         <i class="fab fa-twitter fa-lg"></i>
                     </a>
-                    <a href="https://instagram.com/yourprofile" class="text-white hover:text-gray-400" aria-label="Instagram">
+                    <a href="https://www.instagram.com/krishisparshindia/" class="text-white hover:text-gray-400" aria-label="Instagram">
                         <i class="fab fa-instagram fa-lg"></i>
                     </a>
                     <a href="https://wa.me/+919588160069" class="text-white hover:text-gray-400" aria-label="WhatsApp">
