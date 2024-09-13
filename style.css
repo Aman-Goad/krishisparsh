@@ -38,3 +38,8 @@
 .nav-link:focus::after {
   width: 100%;
 }
+
+
+#menu-toggle:checked + #menu {
+  display: block;
+}
